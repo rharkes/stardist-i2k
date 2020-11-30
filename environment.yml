@@ -11,3 +11,4 @@ dependencies:
     - tensorflow==2.3.*
     - csbdeep
     - stardist
+    - gputools
