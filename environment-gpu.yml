@@ -1,15 +1,16 @@
 name: i2k-2020
 channels:
-  - defaults
+  - conda-forge
   - nvidia
+  - anaconda
 dependencies:
-  - python=3.7
-  - numpy=1.18.*
-  - matplotlib
-  - cudatoolkit=10.1.*
-  - cudnn=7.6.*
-  - jupyter
-  - pip
+  - conda-forge::python=3.7
+  - conda-forge::numpy=1.18.*
+  - conda-forge::matplotlib
+  - nvidia::cudatoolkit=10.1.*
+  - anaconda::cudnn=7.6.*
+  - nvidia::jupyter
+  - conda-forge::pip
   - pip:
     - tensorflow==2.3.*
     - csbdeep
