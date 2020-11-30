@@ -4,6 +4,8 @@ channels:
   - nvidia
 dependencies:
   - python=3.7
+  - numpy=1.18.*
+  - matplotlib
   - cudatoolkit=10.1.*
   - cudnn=7.6.*
   - jupyter
