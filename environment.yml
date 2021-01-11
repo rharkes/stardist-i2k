@@ -6,6 +6,7 @@ dependencies:
   - conda-forge::numpy=1.18.*
   - conda-forge::matplotlib
   - conda-forge::jupyter
+  - conda-forge::pyopencl
   - conda-forge::pip
   - pip:
     - tensorflow==2.3.*
